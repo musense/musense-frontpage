@@ -1,0 +1,7 @@
+.bg {
+    position: relative;
+    width: 100vw;
+    height: 906px;
+    background-image: url(./../public/img/bg.png);
+  }
+  /* .slogan */
