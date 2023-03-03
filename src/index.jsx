@@ -13,8 +13,8 @@ export default function Index() {
       <Nav />
       <BG/>
       <OurService />
-      {/* <ContactUs /> */}
-      {/* <Footer /> */}
+      <ContactUs />
+      <Footer />
     </>
   );
 }

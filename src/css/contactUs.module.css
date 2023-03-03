@@ -1,0 +1,147 @@
+.contact-us-wrapper {
+  position: relative;
+  margin-top: 122px;
+}
+
+.contact-us {
+  position: relative;
+  width: 100vw;
+  height: 58px;
+  background-image: url(./../../public/img/contact\ us.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.contact-us-content {
+  position: relative;
+  margin: 92px auto 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 145px;
+}
+.img-wrapper {
+  position: relative;
+  width: 516px;
+  height: calc(494px + 70px + 64px);
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-down {
+  position: relative;
+  width: 516px;
+  height: 494px;
+  background-image: url(./../../public/img/contact/image_down.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.orange-box {
+  position: relative;
+  width: 335px;
+  height: 64px;
+  background-image: url(./../../public/img/contact/orange\ box.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: -232px;
+}
+
+.contact-us-form {
+  position: relative;
+  width: 578px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 42px;
+}
+
+.enter-box {
+  position: relative;
+  width: 578px;
+  height: 46px;
+  background-image: url(./../../public/img/contact/enter\ box.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+textarea,
+input{
+    position: relative;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.2;
+}
+textarea,
+textarea:focus,
+input,
+input:focus {
+  border: 0;
+  outline-width: 0;
+}
+
+.enter-box::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(-18px - 12px);
+  left: 11px;
+  width: 39px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.enter-box.name:before {
+  background-image: url(./../../public/img/contact/name.png);
+}
+.enter-box.phone:before {
+  background-image: url(./../../public/img/contact/phone.png);
+}
+.enter-box.email:before {
+  width: 87px;
+  background-image: url(./../../public/img/contact/email.png);
+}
+.enter-box.contact:before {
+  width: 133px;
+  background-image: url(./../../public/img/contact/contact.png);
+}
+.enter-box.ask:before {
+  width: 87px;
+  background-image: url(./../../public/img/contact/ask.png);
+}
+
+.enter-box.large {
+  height: 181px;
+  background-image: url(./../../public/img/contact/enter\ box_large.png);
+}
+
+.send-button {
+  position: relative;
+  width: 102px;
+  height: 34px;
+  background-image: url(./../../public/img/bottom/send\ bottom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  margin-top: calc(19px - 42px);
+}
+
+.send-button:hover {
+  background-image: url(./../../public/img/bottom/send\ bottom_h.png);
+}
