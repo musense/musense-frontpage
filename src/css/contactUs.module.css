@@ -7,7 +7,7 @@
   position: relative;
   width: 100vw;
   height: 58px;
-  background-image: url(./../../public/img/contact\ us.png);
+  background-image: url(./../../public/img/contactUs.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -44,7 +44,7 @@
   position: relative;
   width: 335px;
   height: 64px;
-  background-image: url(./../../public/img/contact/orange\ box.png);
+  background-image: url(./../../public/img/contact/orangeBox.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -65,7 +65,7 @@
   position: relative;
   width: 578px;
   height: 46px;
-  background-image: url(./../../public/img/contact/enter\ box.png);
+  background-image: url(./../../public/img/contact/enterBox.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -125,14 +125,14 @@ input:focus {
 
 .enter-box.large {
   height: 181px;
-  background-image: url(./../../public/img/contact/enter\ box_large.png);
+  background-image: url(./../../public/img/contact/enterBox_large.png);
 }
 
 .send-button {
   position: relative;
   width: 102px;
   height: 34px;
-  background-image: url(./../../public/img/bottom/send\ bottom.png);
+  background-image: url(./../../public/img/bottom/sendBottom.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -143,5 +143,5 @@ input:focus {
 }
 
 .send-button:hover {
-  background-image: url(./../../public/img/bottom/send\ bottom_h.png);
+  background-image: url(./../../public/img/bottom/sendBottom_h.png);
 }

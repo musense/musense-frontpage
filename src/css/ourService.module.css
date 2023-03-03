@@ -7,7 +7,7 @@
   position: relative;
   width: 100vw;
   height: 50px;
-  background-image: url(./../../public/img/our\ service.png);
+  background-image: url(./../../public/img/ourService.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
@@ -52,10 +52,10 @@
   background-image: url(./../../public/img/advertising.png);
 }
 .seo-service {
-  background-image: url(./../../public/img/seo\ service.png);
+  background-image: url(./../../public/img/seoService.png);
 }
 .social-media {
-  background-image: url(./../../public/img/social\ media.png);
+  background-image: url(./../../public/img/socialMedia.png);
 }
 .cis {
   background-image: url(./../../public/img/cis.png);
@@ -66,7 +66,7 @@
   margin: 159px auto 0;
   width: 100vw;
   height: 719px;
-  background-image: url(./../../public/img/why\ musense.png);
+  background-image: url(./../../public/img/whyMusense.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;

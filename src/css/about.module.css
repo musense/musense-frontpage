@@ -2,7 +2,7 @@
   position: relative;
   width: 100vw;
   height: 907px;
-  background-image: url(./../../public/img/bg.png);
+  background-image: url(/public/img/bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -15,7 +15,7 @@
   height: 73px;
   top: -90px;
   left: 410px;
-  background-image: url(./../../public/img/slogan.png);
+  background-image: url(/public/img/slogan.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -26,7 +26,7 @@
   height: 391px;
   top: -186px;
   right: 414px;
-  background-image: url(./../../public/img/top\ image.png);
+  background-image: url(/public/img/topImage.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -55,7 +55,7 @@
   cursor: pointer;
 }
 .free:hover {
-  background-image: url(./../../public/img/bottom/free_h.png);
+  background-image: url(/public/img/bottom/free_h.png);
 }
 
 .orange-bubble,
@@ -70,11 +70,11 @@
 }
 .orange-bubble {
   right: 632px;
-  background-image: url(/public/img/orange\ bubble.png);
+  background-image: url(/public/img/orangeBubble.png);
 }
 .orange-bubble_2 {
   left: 403px;
-  background-image: url(/public/img/orange\ bubble_2.png);
+  background-image: url(/public/img/orangeBubble_2.png);
 }
 .blue-bubble,
 .blue-bubble_2 {
@@ -88,11 +88,11 @@
 }
 .blue-bubble {
   right: 405px;
-  background-image: url(/public/img/blue\ bubble.png);
+  background-image: url(/public/img/blueBubble.png);
 }
 .blue-bubble_2 {
   left: 624px;
-  background-image: url(/public/img/blue\ bubble_2.png);
+  background-image: url(/public/img/blueBubble_2.png);
 }
 
 .musense-can-help{
@@ -101,7 +101,7 @@
   height: 66px;
   top: calc(490px + 906px);
   right: 827px;
-  background-image: url(/public/img/musense\ can\ help.png);
+  background-image: url(/public/img/musenseCanHelp.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -132,10 +132,10 @@
 .triangle-range-orange{
   top: calc(713px + 906px);
   right: 208px;
-  background-image: url(./../../public/img/triangle\ range_orange.png);
+  background-image: url(/public/img/triangleRangeOrange.png);
 }
 .triangle-range-orange_2{
   top: calc(854px + 906px);
   left: 348px;
-  background-image: url(./../../public/img/triangle\ range_orange_2.png);
+  background-image: url(/public/img/triangleRangeOrange_2.png);
 }
