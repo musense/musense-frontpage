@@ -5,7 +5,8 @@ export default function BG() {
   return (
     <div className={styles.bg}>
       <div className={styles.slogan} />
-      <div className={styles['top-image']} />
+      <div id="about" className={styles['top-image']} />
+
       <div className={styles.welcome} />
       <div className={styles.free} />
 
@@ -18,7 +19,7 @@ export default function BG() {
       <div className={styles.reply} />
 
       <div className={styles['triangle-range-orange']} />
-      <div className={styles['triangle-range-orange']} />
+      <div className={styles['triangle-range-orange_2']} />
     </div>
   );
 }

@@ -11,10 +11,10 @@ export default function Index() {
     <>
       <Logo />
       <Nav />
-      <BG />
+      <BG/>
       <OurService />
-      <ContactUs />
-      <Footer />
+      {/* <ContactUs /> */}
+      {/* <Footer /> */}
     </>
   );
 }

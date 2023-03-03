@@ -1,0 +1,44 @@
+nav.navbar {
+  position: absolute;
+  top: 120px;
+  left: 909px;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 54px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    width: 115px;
+    height: 34px;
+}
+
+a{
+    text-decoration: none;
+}
+.navBtn{
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.about{
+    background-image: url(/public/img/about.png);
+}
+.service{
+    background-image: url(/public/img/service.png);
+}
+.contactUs{
+    background-image: url(/public/img/contactUs.png);
+}
+.marketing{
+    background-image: url(/public/img/marketing.png);
+}

@@ -1,7 +1,140 @@
 .bg {
-    position: relative;
-    width: 100vw;
-    height: 906px;
-    background-image: url(./../public/img/bg.png);
-  }
-  /* .slogan */
+  position: relative;
+  width: 100vw;
+  height: 907px;
+  background-image: url(./../../public/img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 304px;
+}
+
+.slogan {
+  position: absolute;
+  width: 509px;
+  height: 73px;
+  top: -90px;
+  left: 410px;
+  background-image: url(./../../public/img/slogan.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.top-image {
+  position: absolute;
+  width: 497px;
+  height: 391px;
+  top: -186px;
+  right: 414px;
+  background-image: url(./../../public/img/top\ image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.welcome {
+  position: absolute;
+  width: 1138px;
+  height: 27px;
+  top: 446px;
+  left: 390px;
+  background-image: url(/public/img/welcome.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.free {
+  position: absolute;
+  width: 122px;
+  height: 122px;
+  top: 446px;
+  right: 75px;
+  background-image: url(/public/img/bottom/free.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.free:hover {
+  background-image: url(./../../public/img/bottom/free_h.png);
+}
+
+.orange-bubble,
+.orange-bubble_2 {
+  position: absolute;
+  width: 354px;
+  height: 278px;
+  top: 715px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.orange-bubble {
+  right: 632px;
+  background-image: url(/public/img/orange\ bubble.png);
+}
+.orange-bubble_2 {
+  left: 403px;
+  background-image: url(/public/img/orange\ bubble_2.png);
+}
+.blue-bubble,
+.blue-bubble_2 {
+  position: absolute;
+  width: 371px;
+  height: 291px;
+  top: calc(65px + 906px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.blue-bubble {
+  right: 405px;
+  background-image: url(/public/img/blue\ bubble.png);
+}
+.blue-bubble_2 {
+  left: 624px;
+  background-image: url(/public/img/blue\ bubble_2.png);
+}
+
+.musense-can-help{
+  position: absolute;
+  width: 266px;
+  height: 66px;
+  top: calc(490px + 906px);
+  right: 827px;
+  background-image: url(/public/img/musense\ can\ help.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.reply{
+  position: absolute;
+  width: 832px;
+  height: 74px;
+  top: calc(603px + 906px);
+  right: 544px;
+  background-image: url(/public/img/reply.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.triangle-range-orange,
+.triangle-range-orange_2{
+  position: absolute;
+  width: 230px;
+  height: 31px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.triangle-range-orange{
+  top: calc(713px + 906px);
+  right: 208px;
+  background-image: url(./../../public/img/triangle\ range_orange.png);
+}
+.triangle-range-orange_2{
+  top: calc(854px + 906px);
+  left: 348px;
+  background-image: url(./../../public/img/triangle\ range_orange_2.png);
+}

@@ -4,30 +4,38 @@ import styles from './../css/nav.module.css';
 export default function Nav() {
   return (
     <nav className={styles.navbar}>
-      <a
-        className={styles.about}
-        href='#about'
-      >
-        About
-      </a>
-      <a
-        className={styles.service}
-        href='#service'
-      >
-        Service
-      </a>
-      <a
-        className={styles.contactUs}
-        href='#contactUs'
-      >
-        Contact Us
-      </a>
-      <a
-        className={styles.marketing}
-        href='#marketing'
-      >
-        Marketing
-      </a>
+      <ul>
+        <li>
+          <a
+            className={`${styles.navBtn} ${styles.about}`}
+            href='#about'
+          >
+          </a>
+        </li>
+
+        <li>
+          <a
+            className={`${styles.navBtn} ${styles.service}`}
+            href='#service'
+          >
+          </a>
+        </li>
+
+        <li>
+          <a
+            className={`${styles.navBtn} ${styles.contactUs}`}
+            href='#contactUs'
+          >
+          </a>
+        </li>
+        <li>
+          <a
+            className={`${styles.navBtn} ${styles.marketing}`}
+            href='#marketing'
+          >
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 }
