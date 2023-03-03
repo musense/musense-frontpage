@@ -30,7 +30,8 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  cursor: pointer;
+  /* TODO: 正式需解除 */
+  /* cursor: pointer; */
 }
 .ad-image:after {
   content: '';
@@ -44,7 +45,8 @@
   transform: translateX(-50%);
 }
 .ad-image:hover:after {
-  background-image: url(./../../public/img/bottom/more_bottom_h.png);
+  /* TODO: 正式需解除 */
+  /* background-image: url(./../../public/img/bottom/more_bottom_h.png); */
 }
 .advertising {
   background-image: url(./../../public/img/advertising.png);

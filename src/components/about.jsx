@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './../css/bg.module.css';
+import styles from './../css/about.module.css';
 
-export default function BG() {
+export default function About() {
   return (
     <div className={styles.bg}>
       <div className={styles.slogan} />
