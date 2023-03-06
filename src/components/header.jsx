@@ -53,11 +53,11 @@ export default function Header() {
           </li>
           <li>
             <a
+              data-tooltip='敬請期待'
               className={`${styles.navBtn} ${styles.marketing}`}
               // href='#'
               // target="_blank"
             ></a>
-            <div className={styles.hoverTip}>敬請期待</div>
           </li>
         </ul>
       </nav>
