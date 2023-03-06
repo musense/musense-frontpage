@@ -1,11 +1,15 @@
+.image,
+.image > div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .bg {
   position: relative;
   width: 100vw;
   height: 907px;
   background-image: url(/public/img/bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   margin-top: calc(282px + 176px);
 }
 
@@ -16,9 +20,6 @@
   top: -90px;
   left: 410px;
   background-image: url(/public/img/slogan.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 .top-image {
   position: absolute;
@@ -27,9 +28,6 @@
   top: -186px;
   right: 414px;
   background-image: url(/public/img/topImage.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 .welcome {
   position: absolute;
@@ -38,9 +36,6 @@
   top: 446px;
   left: 390px;
   background-image: url(/public/img/welcome.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 .free {
   position: absolute;
@@ -49,9 +44,7 @@
   top: 446px;
   right: 75px;
   background-image: url(/public/img/bottom/free.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+
   cursor: pointer;
 }
 .free:hover {
@@ -64,27 +57,25 @@
   width: 354px;
   height: 278px;
   top: 715px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 .orange-bubble {
   right: 632px;
   background-image: url(/public/img/orangeBubble.png);
 }
 .orange-bubble_2 {
-  left: 403px;
+  /* left: 403px; */
+  left: -100%;
   background-image: url(/public/img/orangeBubble_2.png);
+  transition: left 0.2s;
 }
+
+
 .blue-bubble,
 .blue-bubble_2 {
   position: absolute;
   width: 371px;
   height: 291px;
   top: calc(65px + 906px);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 .blue-bubble {
   right: 405px;
@@ -95,47 +86,39 @@
   background-image: url(/public/img/blueBubble_2.png);
 }
 
-.musense-can-help{
+.musense-can-help {
   position: absolute;
   width: 266px;
   height: 66px;
   top: calc(490px + 906px);
   right: 827px;
   background-image: url(/public/img/musenseCanHelp.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
-.reply{
+.reply {
   position: absolute;
   width: 832px;
   height: 74px;
   top: calc(603px + 906px);
   right: 544px;
   background-image: url(/public/img/reply.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
 .triangle-range-orange,
-.triangle-range-orange_2{
+.triangle-range-orange_2 {
   position: absolute;
   width: 230px;
   height: 31px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
 }
 
-.triangle-range-orange{
+.triangle-range-orange {
   top: calc(713px + 906px);
   right: 208px;
   background-image: url(/public/img/triangleRangeOrange.png);
 }
-.triangle-range-orange_2{
+.triangle-range-orange_2 {
   top: calc(854px + 906px);
   left: 348px;
   background-image: url(/public/img/triangleRangeOrange_2.png);
 }
+
