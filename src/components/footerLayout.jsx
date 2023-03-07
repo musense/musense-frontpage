@@ -1,9 +1,9 @@
 import React from 'react';
-import './../css/footer.css';
+import './../css/footerLayout.css';
 import Logo from './logo';
 // import styles from './../css/footer.module.css';
 
-export default function Footer() {
+export default function FooterLayout() {
   return (
     <div className='footer-wrapper'>
       <div className='footer-box'>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import './../css/contactUs.css';
-// import styles from './../css/contactUs.module.css';
+import './../../css/contactUs.css';
 import emailjs from '@emailjs/browser';
 import Modal from 'react-modal';
 

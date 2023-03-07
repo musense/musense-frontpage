@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import './../css/header.css';
+import './../css/headerLayout.css';
 // import styles from './../css/header.module.css';
 import Logo from './logo';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
-import { Link } from 'react-scroll';
+import { Link as ScrollLink } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
-export default function Header() {
+export default function HeaderLayout() {
   const [showHeader, setShowHeader] = useState(true);
   useScrollPosition(({ prevPos, currPos }) => {
     if (currPos.y >= prevPos.y) {
@@ -21,44 +22,43 @@ export default function Header() {
       <nav className={'navbar'}>
         <ul>
           <li>
-            <Link
+            <ScrollLink
               spy={true}
               smooth={true}
               offset={-60}
               duration={500}
               className={`${'navBtn'} ${'about'}`}
               to='about-us'
-            ></Link>
+            ></ScrollLink>
           </li>
 
           <li>
-            <Link
+            <ScrollLink
               spy={true}
               smooth={true}
               offset={-60}
               duration={500}
               className={`${'navBtn'} ${'service'}`}
               to='service'
-            ></Link>
+            ></ScrollLink>
           </li>
 
           <li>
-            <Link
+            <ScrollLink
               spy={true}
               smooth={true}
               offset={-60}
               duration={500}
               className={`${'navBtn'} ${'contactUs'}`}
               to='contactUs'
-            ></Link>
+            ></ScrollLink>
           </li>
           <li>
-            <a
-              data-tooltip='敬請期待'
+            <Link
+              // data-tooltip='敬請期待'
               className={`${'navBtn'} ${'marketing'}`}
-              // href='#'
-              // target="_blank"
-            ></a>
+              to='Marketing'
+            ></Link>
           </li>
         </ul>
       </nav>

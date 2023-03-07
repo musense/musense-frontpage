@@ -1,6 +1,5 @@
 import React from 'react';
-// import styles from './../css/ourService.module.css';
-import './../css/ourService.css';
+import './../../css/ourService.css';
 
 export default function OurService() {
   return (

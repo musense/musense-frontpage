@@ -1,19 +1,14 @@
 import React from 'react';
-import About from './components/about';
-import Header from './components/header';
-import Logo from './components/logo';
-import OurService from './components/ourService';
-import ContactUs from './components/contactUs';
-import Footer from './components/footer';
+import HeaderLayout from './components/headerLayout';
+import FooterLayout from './components/footerLayout';
+import { Outlet } from 'react-router-dom';
 
 export default function Index() {
   return (
     <>
-      <Header />
-      <About/>
-      <OurService />
-      <ContactUs />
-      <Footer />
+      <HeaderLayout />
+      <Outlet />
+      <FooterLayout />
     </>
   );
 }
