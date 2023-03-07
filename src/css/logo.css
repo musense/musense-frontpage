@@ -1,0 +1,13 @@
+.logo {
+  position: relative;
+  width: 274px;
+  height: 68px;
+  /* background-image: url(./../../public/img/logo.png); */
+}
+
+.logo.gray{
+    background-image: url(./../../public/img/logo_gray.png);
+}
+.logo.white{
+    background-image: url(./../../public/img/logo_white.png);
+}

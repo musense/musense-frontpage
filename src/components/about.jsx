@@ -14,12 +14,12 @@ export default function About() {
     });
   }, []);
   return (
-    <div className='about'>
+    <div className='about-us'>
       <div className='bg' />
       <div className='about-box'>
         <div className='slogan' />
         <div
-          id='about'
+          id='about-us'
           className='top-image'
         />
       </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import styles from './../css/header.module.css';
+import './../css/header.css';
+// import styles from './../css/header.module.css';
 import Logo from './logo';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import { Link } from 'react-scroll';
@@ -15,9 +16,9 @@ export default function Header() {
   });
 
   return (
-    <header className={`${showHeader ? styles.show : styles.hide}`}>
-      <Logo />
-      <nav className={styles.navbar}>
+    <header className={`${showHeader ? 'show' : 'hide'}`}>
+      <Logo color={'gray'} />
+      <nav className={'navbar'}>
         <ul>
           <li>
             <Link
@@ -25,8 +26,8 @@ export default function Header() {
               smooth={true}
               offset={-60}
               duration={500}
-              className={`${styles.navBtn} ${styles.about}`}
-              to='about'
+              className={`${'navBtn'} ${'about'}`}
+              to='about-us'
             ></Link>
           </li>
 
@@ -36,7 +37,7 @@ export default function Header() {
               smooth={true}
               offset={-60}
               duration={500}
-              className={`${styles.navBtn} ${styles.service}`}
+              className={`${'navBtn'} ${'service'}`}
               to='service'
             ></Link>
           </li>
@@ -47,14 +48,14 @@ export default function Header() {
               smooth={true}
               offset={-60}
               duration={500}
-              className={`${styles.navBtn} ${styles.contactUs}`}
+              className={`${'navBtn'} ${'contactUs'}`}
               to='contactUs'
             ></Link>
           </li>
           <li>
             <a
               data-tooltip='敬請期待'
-              className={`${styles.navBtn} ${styles.marketing}`}
+              className={`${'navBtn'} ${'marketing'}`}
               // href='#'
               // target="_blank"
             ></a>
