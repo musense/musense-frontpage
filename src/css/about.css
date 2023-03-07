@@ -1,14 +1,18 @@
-.about {
-  position: absolute;
+:root {
+  --top-offset: calc(176px + 282px - 186px);
+  --ourService-top: calc(var(--top-offset) + 95px);
+}
+.about-us {
+  position: relative;
   width: 100%;
   height: fit-content;
-  top: calc(176px + 282px - 186px);
+  top: var(--top-offset);
   overflow-x: hidden;
   overflow-y: visible;
 }
 
-.about > div:not([class$='box']),
-.about * div:not([class$='box']) {
+.about-us > div:not([class$='box']),
+.about-us * div:not([class$='box']) {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

@@ -2,10 +2,18 @@
   position: relative;
   margin-top: 122px;
 }
-
+.contact-us-wrapper > div,
+.contact-us-wrapper * button,
+.contact-us-wrapper
+  *
+  div:not([class$='content']):not([class$='wrapper']):not([class$='form']) {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .contact-us {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 58px;
   background-image: url(/public/img/contactUs_big.png);
 }
@@ -126,4 +134,35 @@ input:focus {
 
 .send-button:hover {
   background-image: url(/public/img/bottom/sendBottom_h.png);
+}
+
+.modal-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.modal-close {
+  position: relative;
+  background-color: unset;
+  border: unset;
+  cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+  position: absolute;
+  content: '';
+  background-color: #000;
+  width: 15px;
+  height: 3px;
+  transform-origin: center;
+}
+
+.modal-close::before {
+  transform: rotate(45deg);
+}
+.modal-close::after {
+  transform: rotate(-45deg);
 }

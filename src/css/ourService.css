@@ -1,7 +1,11 @@
+:root{
+
+
+}
 .our-service-wrapper {
+
   position: relative;
-  margin: 980px auto 0;
-  height: fit-content;
+  margin: var(--ourService-top) auto 0;
   width: 100%;
   display: flex;
   flex-direction: column;

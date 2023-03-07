@@ -1,0 +1,87 @@
+.footer-wrapper {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 298px;
+  background-image: url(./../../public/img/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: 90px;
+  font-family: Openhuninn;
+
+  letter-spacing: 4px;
+}
+.footer-wrapper * div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.footer-box {
+  position: absolute;
+  top: 57px;
+  left: 50%;
+  transform: translateX(-40%);
+  display: flex;
+  flex-direction: row;
+  gap: 168px;
+}
+
+.left-side,
+.right-side {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 17px;
+}
+
+.left-side {
+  width: 482px;
+  font-size: 16px;
+}
+
+.right-side {
+  width: 355px;
+  font-size: 14px;
+}
+
+.contact-us-btn {
+  position: relative;
+  width: 100%;
+  height: 44px;
+  background-image: url(/public/img/bottom/contactButton.png);
+  background-position: left !important;
+  cursor: pointer;
+}
+.contact-us-btn:hover {
+  background-image: url(/public/img/bottom/contactButton_h.png);
+}
+
+.social-btn-box {
+  position: relative;
+  width: 100%;
+  height: 38px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.social-btn-box > div {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+}
+.fb-icon {
+  background-image: url(/public/img/FBIcon.png);
+}
+.fb-icon {
+  background-image: url(/public/img/FBIcon.png);
+}
+.ms-icon {
+  background-image: url(/public/img/MSIcon.png);
+}
+.mail-icon {
+  background-image: url(/public/img/MailIcon.png);
+}
