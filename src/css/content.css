@@ -1,0 +1,17 @@
+.btn-marketing-wrapper{
+      margin-top: 68px;
+    gap: 81px;
+}
+
+.btn-marketing.last{
+    background-image: url(/public/img/bottom/back.png);
+}
+.btn-marketing.last:hover{
+    background-image: url(/public/img/bottom/back_h.png);
+}
+.btn-marketing.next{
+    background-image: url(/public/img/bottom/next.png);
+}
+.btn-marketing.next:hover{
+    background-image: url(/public/img/bottom/next_h.png);
+}

@@ -50,12 +50,12 @@ export default function HeaderLayout() {
             <li>
               <Link
                 className={`${'navBtn'} ${'marketing'}`}
-                to='Marketing'
+                to='marketing'
               />
             </li>
           </ul>
         )}
-        {pathname === '/Marketing' && (
+        {(pathname === '/marketing' || pathname.startsWith('/content')) && (
           <ul>
             <li>
               <HeaderHashLink
@@ -83,7 +83,7 @@ export default function HeaderLayout() {
             <li>
               <Link
                 className={`${'navBtn'} ${'marketing'}`}
-                to='Marketing'
+                to='marketing'
               />
             </li>
           </ul>

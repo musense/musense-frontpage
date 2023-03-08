@@ -12,6 +12,7 @@ export default function CardBox() {
           upperUpperArray.map((content, index) => {
             return (
               <Card
+                key={index}
                 tag={content.tag}
                 imgSrc={content.img.src}
                 imgAltText={content.img.altText}
@@ -28,6 +29,7 @@ export default function CardBox() {
           lowerUpperArray.map((content, index) => {
             return (
               <Card
+                key={index}
                 tag={content.tag}
                 imgSrc={content.img.src}
                 imgAltText={content.img.altText}
