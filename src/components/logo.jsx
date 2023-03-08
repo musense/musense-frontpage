@@ -5,5 +5,5 @@ import './../css/logo.css';
 
 export default function Logo({ color }) {
   color ||= 'gray';
-  return <Link className={`logo ${color}`} to="/"/>;
+  return <Link title="Musense Marketing" className={`logo ${color}`} to="/"/>;
 }

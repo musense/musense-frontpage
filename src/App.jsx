@@ -1,10 +1,17 @@
 import './App.css';
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import IndexView from "./page/Index";
 import Marketing from "./page/Marketing";
 import Index from './index.jsx'
+import { animateScroll as scroll } from 'react-scroll';
+import { useEffect } from 'react';
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    scroll.scrollToTop({ duration: 0 });
+  }, [pathname]);
   return (
     <>
       <Routes>
@@ -15,9 +22,6 @@ function App() {
         </Route>
       </Routes>
     </>
-    // <Index />
-
-   
   );
 }
 

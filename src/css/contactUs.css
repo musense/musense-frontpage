@@ -21,10 +21,10 @@
 .contact-us-content {
   position: relative;
   margin: 92px auto 0;
+  width: var(--contact-us-width);
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 145px;
+  justify-content: space-between;
 }
 .img-wrapper {
   position: relative;

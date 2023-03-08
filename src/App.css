@@ -1,3 +1,12 @@
+:root {
+  --n-header-height: -120px;
+  --header-height: 120px;
+  --top-offset: calc(var(--header-height) + 282px - 186px);
+  --ourService-top: calc(var(--top-offset) + 95px);
+  --banner-top-offset: calc(var(--header-height) + 44px);
+  --contact-us-width: 1240px;
+}
+
 body {
   margin: 0;
 }
@@ -5,4 +14,8 @@ body {
 @font-face {
   font-family: Openhuninn;
   src: url('./../public/font/jf-openhuninn-1.1.ttf');
+}
+@font-face {
+  font-family: TaipeiSansTCBeta;
+  src: url('./../public/font/TaipeiSansTCBeta-Regular.ttf');
 }

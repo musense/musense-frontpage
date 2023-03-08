@@ -12,6 +12,10 @@
 
   letter-spacing: 4px;
 }
+.footer-wrapper.marketing{
+  margin-top: 154px;
+}
+
 .footer-wrapper * div {
   background-repeat: no-repeat;
   background-position: center;
@@ -20,12 +24,13 @@
 
 .footer-box {
   position: absolute;
-  top: 57px;
+  margin-top: 57px;
   left: 50%;
-  transform: translateX(-40%);
+  transform: translateX(-50%);
+  width: var(--contact-us-width);
   display: flex;
   flex-direction: row;
-  gap: 168px;
+  justify-content: space-between;
 }
 
 .left-side,
@@ -43,8 +48,9 @@
 }
 
 .right-side {
-  width: 355px;
+  width: 400px;
   font-size: 14px;
+  justify-content: flex-end
 }
 
 .contact-us-btn {
