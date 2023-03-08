@@ -2,12 +2,12 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import postcssImport from "postcss-import"
 import autoprefixer from 'autoprefixer'
+import copyAssets from "postcss-copy-assets";
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  css:{
-    postcss:{
-      plugins:[
+  css: {
+    postcss: {
+      plugins: [
         postcssImport,
         autoprefixer,
       ]
@@ -15,6 +15,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
+    
   ],
   base: "./",
   esbuild: {
