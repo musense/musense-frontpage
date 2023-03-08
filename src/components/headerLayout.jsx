@@ -49,8 +49,9 @@ export default function HeaderLayout() {
             </li>
             <li>
               <Link
+                data-tooltip="敬請期待"
                 className={`${'navBtn'} ${'marketing'}`}
-                to='marketing'
+                // to='marketing'
               />
             </li>
           </ul>
