@@ -1,10 +1,10 @@
 export const img = { src: '/public/img/page3/topBanner.png', altText: '是咖啡店，也是博物館' }
 export const content = {
-  tag: '文創商品,咖啡',
-  title:
-    '是咖啡店也是博物館！台南「文鼎留聲博物館」亮相：本事設計操刀一樓空間、首檔展覽開展',
-  content: [
-    `<img src="/public/img/page3/image1.png" alt="image1" />
+    tag: '文創商品,咖啡',
+    title:
+        '是咖啡店也是博物館！台南「文鼎留聲博物館」亮相：本事設計操刀一樓空間、首檔展覽開展',
+    content: [
+        `<img src="/public/img/page3/image1.png" alt="image1" />
     <br>
     <br>
     <br>
@@ -38,7 +38,17 @@ export const content = {
     <br>
     <br>
     <img src="/public/img/page3/image4.png" alt="image4" /> `
-    
-],
-createDate: 'Sun Jan 01 2023 00:00:00 GMT+0800 (台北標準時間)'
+
+    ],
+    createDate: 'Sun Jan 01 2023 00:00:00 GMT+0800 (台北標準時間)'
 }
+
+export const tags = [
+    '選物',
+    '出國',
+    '室內設計',
+    '建築',
+    '咖啡',
+    '文創商品',
+    '佳節精選',
+]

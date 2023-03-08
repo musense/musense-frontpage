@@ -1,8 +1,11 @@
 import React from "react";
 import './../../css/mainContent.css'
 import MiscButtonContentList from "./miscButtonContentList";
+import Tag from "./tag";
 
-export default function MainContent({ content }) {
+
+export default function MainContent({ content, hotTags }) {
+    console.log("🚀 ~ file: mainContent.jsx:7 ~ MainContent ~ hotTags:", hotTags)
 
     return (
         <div className="main-content-wrapper">
@@ -10,8 +13,8 @@ export default function MainContent({ content }) {
                 <h1 className="content-title">{content.title}</h1>
                 <div className="content-misc">
                     <div className="content-tags">{
-                        content.tag.split(',').map((tag, index) => {
-                            return <span key={index}>#&nbsp;{tag}&nbsp;&nbsp;&nbsp;</span>
+                        content.tag.split(',').map((tagName, index) => {
+                            return <Tag key={index} tagName={tagName} index={index} />
                         })}
                     </div>
                     <div className="content-create-date">
@@ -25,7 +28,14 @@ export default function MainContent({ content }) {
                 />
                 <MiscButtonContentList />
             </div>
-            <div className="content-right-side"></div>
+            <div className="content-right-side">
+                <div className="hot-trend"></div>
+                <div className="hot-tag-wrapper">
+                    {hotTags && hotTags.map((tagName, index) => {
+                        return <Tag key={index} tagName={tagName} index={index} />;
+                    })}
+                </div>
+            </div>
         </div>
 
     );

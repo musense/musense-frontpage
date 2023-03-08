@@ -1,0 +1,19 @@
+.tag {
+  position: relative;
+  font-size: 13.5px;
+  color: #f88d2a;
+  letter-spacing: 1px;
+  /* margin-left: 32px; */
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.tag::before {
+  position: relative;
+  content: attr(data-tag);
+  width: fit-content;
+  height: 14px;
+}
