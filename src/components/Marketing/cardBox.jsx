@@ -5,6 +5,7 @@ import HotContent from './hotContent';
 import { upperUpperArray, lowerUpperArray } from './../../assets/mockData';
 
 export default function CardBox() {
+  
   return (
     <>
       <div className='card-wrapper'>

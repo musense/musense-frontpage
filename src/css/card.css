@@ -14,11 +14,12 @@
   position: inherit;
   width: 100%;
   height: 210px;
+  /* background-image: url('/public/img/page3/topBanner.png'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   overflow: hidden;
-  transform: scale(1.0);
+  transform: scale(1);
   transition: transform 0.1s linear;
 }
 
@@ -45,10 +46,10 @@
   text-align: left;
   font-family: TaipeiSansTCBeta;
   line-height: 1.2;
-  display: -webkit-box;
+  /* display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 .card-footer {

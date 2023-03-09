@@ -5,6 +5,8 @@
   --ourService-top: calc(var(--top-offset) + 95px);
   --banner-top-offset: calc(var(--header-height) + 44px);
   --contact-us-width: 1240px;
+
+  --clamp-line: 3;
 }
 
 body {
@@ -14,9 +16,16 @@ body {
 
 @font-face {
   font-family: Openhuninn;
-  src: url('./../public/font/jf-openhuninn-1.1.ttf');
+  src: url('./assets/font/jf-openhuninn-1.1.ttf');
 }
 @font-face {
   font-family: TaipeiSansTCBeta;
-  src: url('./../public/font/TaipeiSansTCBeta-Regular.ttf');
+  src: url('./assets/font/TaipeiSansTCBeta-Regular.ttf');
+}
+
+.ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--clamp-line, 3);
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
 }

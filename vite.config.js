@@ -3,8 +3,16 @@ import react from '@vitejs/plugin-react-swc'
 import postcssImport from "postcss-import"
 import autoprefixer from 'autoprefixer'
 import copyAssets from "postcss-copy-assets";
+import path from 'path'
+
+function _resolve(dir) {
+  return path.resolve(__dirname, dir)
+}
 
 export default defineConfig({
+  server: {
+    port: 3000
+  },
   css: {
     postcss: {
       plugins: [
@@ -15,11 +23,11 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    
+
   ],
   base: "./",
   esbuild: {
-    pure: ['console.log'],
+    // pure: ['console.log'],
     minify: true
   },
   build: {

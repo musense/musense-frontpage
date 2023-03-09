@@ -16,6 +16,10 @@
   margin-top: 154px;
 }
 
+.footer-wrapper.content{
+  margin-top: -1px;
+}
+
 .footer-wrapper * div {
   background-repeat: no-repeat;
   background-position: center;
@@ -53,17 +57,25 @@
   justify-content: flex-end
 }
 
+.button-box{
+  position: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 143px;
+  align-items: center;
+}
 .contact-us-btn {
   position: relative;
   width: 100%;
   height: 44px;
   background-image: url(/public/img/bottom/contactButton.png);
   background-position: left !important;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
-.contact-us-btn:hover {
+/* .contact-us-btn:hover {
   background-image: url(/public/img/bottom/contactButton_h.png);
-}
+} */
 
 .social-btn-box {
   position: relative;
@@ -71,9 +83,9 @@
   height: 38px;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: space-around;
 }
-.social-btn-box > div {
+.social-btn-box > a {
   position: relative;
   width: 38px;
   height: 38px;
@@ -82,12 +94,17 @@
 .fb-icon {
   background-image: url(/public/img/FBIcon.png);
 }
-.fb-icon {
-  background-image: url(/public/img/FBIcon.png);
+.ig-icon {
+  background-image: url(/public/img/IGIcon.png);
 }
 .ms-icon {
   background-image: url(/public/img/MSIcon.png);
 }
 .mail-icon {
   background-image: url(/public/img/MailIcon.png);
+}
+.aa{
+  font-size: 22px;
+    padding-bottom: 21px;
+    font-family: TaipeiSansTCBeta;
 }

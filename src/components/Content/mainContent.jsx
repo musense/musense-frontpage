@@ -4,7 +4,7 @@ import MiscButtonContentList from "./miscButtonContentList";
 import Tag from "./tag";
 
 
-export default function MainContent({ content, hotTags }) {
+export default function MainContent({ id, content, hotTags }) {
     console.log("🚀 ~ file: mainContent.jsx:7 ~ MainContent ~ hotTags:", hotTags)
 
     return (
@@ -26,7 +26,7 @@ export default function MainContent({ content, hotTags }) {
                     className="content-main-content"
                     dangerouslySetInnerHTML={{ __html: content.content }}
                 />
-                <MiscButtonContentList />
+                <MiscButtonContentList id={id} />
             </div>
             <div className="content-right-side">
                 <div className="hot-trend"></div>

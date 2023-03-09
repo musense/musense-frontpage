@@ -1,7 +1,7 @@
 .btn-marketing-wrapper {
   position: relative;
   margin: 0 auto;
-  height: 50px;
+  height: fit-content;
   width: fit-content;
   display: flex;
   flex-direction: row;
