@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import postcssImport from "postcss-import"
+import postcssCacheBuster from 'postcss-cachebuster'
 import autoprefixer from 'autoprefixer'
-import copyAssets from "postcss-copy-assets";
 import path from 'path'
 
 function _resolve(dir) {
@@ -18,6 +18,7 @@ export default defineConfig({
       plugins: [
         postcssImport,
         autoprefixer,
+        postcssCacheBuster,
       ]
     }
   },
